@@ -1,0 +1,86 @@
+DATASET:
+  data_dir: /home/liuwenze/Combined_Dataset
+  name: Adobe_Image_Matting
+  train_alpha_list: train_alpha.txt
+  train_bg_list: train_bg.txt
+  train_fg_list: train_fg.txt
+  val_list: test.txt
+EXP: fade_lite
+MODEL:
+  activation: leaky_relu
+  activation_param: 0.01
+  arch: resnet34
+  aspp: True
+  backbone: resnet34
+  bn_mode: sync
+  decoder_block_num: 2
+  decoder_conv_operator: residual_conv
+  decoder_kernel_size: 3
+  downupsample_group: 1
+  encode_kernel_size: 6
+  input_3x3: False
+  share: True
+  stride: 16
+  up_kernel_size: 3
+  weight_gain_multiplier: 1
+  weight_init: xavier_normal
+TEST:
+  batch_size: 1
+  checkpoint: model_best.pth
+  result_dir: ./results
+TRAIN:
+  all_bg: True
+  apex: False
+  batch_size: 16
+  crop_size: 512
+  epoch_iterations: 6000
+  evaluate_only: False
+  freeze_bn: True
+  initial_lr: 0.01
+  lmdb: False
+  load_bg: False
+  load_data: False
+  model_save_dir: ./savemodel
+  momentum: 0.9
+  mult: 100
+  num_epochs: 30
+  num_workers: 8
+  print_every: 1
+  random_bgidx: True
+  random_seed: 6
+  record_every: 20
+  restore: ./savemodel/adobe_image_matting/fade_lite/model_ckpt.pth
+  result_dir: ./results/fade_lite
+VAL:
+  batch_size: 1
+  test_all_metrics: False
+epoch: 1, test: 500/500, SAD: 68.85, MSE: nan, Grad: 39.51, Conn: nan
+epoch: 2, test: 500/500, SAD: 48.69, MSE: nan, Grad: 27.70, Conn: nan
+epoch: 3, test: 500/500, SAD: 45.25, MSE: nan, Grad: 24.19, Conn: nan
+epoch: 4, test: 500/500, SAD: 46.18, MSE: nan, Grad: 23.71, Conn: nan
+epoch: 5, test: 500/500, SAD: 40.56, MSE: nan, Grad: 21.57, Conn: nan
+epoch: 6, test: 500/500, SAD: 46.13, MSE: nan, Grad: 25.02, Conn: nan
+epoch: 7, test: 500/500, SAD: 42.28, MSE: nan, Grad: 23.72, Conn: nan
+epoch: 8, test: 500/500, SAD: 39.61, MSE: nan, Grad: 21.58, Conn: nan
+epoch: 9, test: 500/500, SAD: 41.05, MSE: nan, Grad: 21.71, Conn: nan
+epoch: 10, test: 500/500, SAD: 45.15, MSE: nan, Grad: 24.75, Conn: nan
+epoch: 11, test: 500/500, SAD: 41.96, MSE: nan, Grad: 24.59, Conn: nan
+epoch: 12, test: 500/500, SAD: 36.90, MSE: nan, Grad: 18.30, Conn: nan
+epoch: 13, test: 500/500, SAD: 37.68, MSE: nan, Grad: 20.34, Conn: nan
+epoch: 14, test: 500/500, SAD: 42.36, MSE: nan, Grad: 23.43, Conn: nan
+epoch: 15, test: 500/500, SAD: 36.68, MSE: nan, Grad: 19.79, Conn: nan
+epoch: 16, test: 500/500, SAD: 41.45, MSE: nan, Grad: 22.05, Conn: nan
+epoch: 17, test: 500/500, SAD: 37.28, MSE: nan, Grad: 18.37, Conn: nan
+epoch: 18, test: 500/500, SAD: 35.37, MSE: nan, Grad: 16.76, Conn: nan
+epoch: 19, test: 500/500, SAD: 36.25, MSE: nan, Grad: 19.79, Conn: nan
+epoch: 20, test: 500/500, SAD: 35.92, MSE: nan, Grad: 19.59, Conn: nan
+epoch: 21, test: 500/500, SAD: 32.65, MSE: nan, Grad: 15.50, Conn: nan
+epoch: 22, test: 500/500, SAD: 33.25, MSE: nan, Grad: 15.96, Conn: nan
+epoch: 23, test: 500/500, SAD: 32.60, MSE: nan, Grad: 15.90, Conn: nan
+epoch: 24, test: 500/500, SAD: 32.17, MSE: nan, Grad: 15.27, Conn: nan
+epoch: 25, test: 500/500, SAD: 32.18, MSE: nan, Grad: 15.61, Conn: nan
+epoch: 26, test: 500/500, SAD: 31.96, MSE: nan, Grad: 14.94, Conn: nan
+epoch: 27, test: 500/500, SAD: 32.15, MSE: nan, Grad: 15.47, Conn: nan
+epoch: 28, test: 500/500, SAD: 31.31, MSE: nan, Grad: 14.84, Conn: nan
+epoch: 29, test: 500/500, SAD: 32.75, MSE: nan, Grad: 15.86, Conn: nan
+epoch: 30, test: 500/500, SAD: 31.36, MSE: nan, Grad: 14.83, Conn: nan
