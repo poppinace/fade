@@ -30,7 +30,7 @@ Here are results of image matting and semantic segmentation:
 
 | Image Matting | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | (https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_bilinear.512x512.ade.160k.log) | -- |
+| Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | -- | -- |
 | CARAFE | +0.26M | +6.00 | 41.01 | 0.0118 | 21.39 | 39.01 | -- | -- |
 | IndexNet | +12.26M | +31.70 | 34.28 | 0.0081 | 15.94 | 31.91 | -- | -- |
 | A2U | +38K | +0.66 | 32.15 | 0.0082 | 16.39 | 29.25 | -- | -- |
@@ -39,12 +39,12 @@ Here are results of image matting and semantic segmentation:
 
 | Semantic Segmentation | #Param. | GFLOPs | mIoU | bIoU | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| Bilinear | 13.7M | 15.91 | 41.68 | 27.80 | -- | -- |
-| CARAFE | +0.44M | +1.45 | 42.82 | 29.84 | -- | -- |
-| IndexNet | +12.60M | +30.65 | 41.50 | 28.27 | -- | -- |
-| A2U | +0.12M | +0.41 | 41.45 | 27.31 | -- | -- |
-| FADE | +0.29M | +2.65 | 44.41 | 32.65 | -- | -- |
-| FADE-Lite | +80K | +0.89 | 43.49 | 31.55 | -- | -- |
+| Bilinear | 13.7M | 15.91 | 41.68 | 27.80 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_bilinear.512x512.ade.160k.log) | -- |
+| CARAFE | +0.44M | +1.45 | 42.82 | 29.84 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_carafe.512x512.ade.160k.log) | -- |
+| IndexNet | +12.60M | +30.65 | 41.50 | 28.27 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_indexnet.512x512.ade.160k.log) | -- |
+| A2U | +0.12M | +0.41 | 41.45 | 27.31 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_a2u.512x512.ade.160k.log) | -- |
+| FADE | +0.29M | +2.65 | 44.41 | 32.65 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_fade.512x512.ade.160k.log) | -- |
+| FADE-Lite | +80K | +0.89 | 43.49 | 31.55 | [link](https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_fade_lite.512x512.ade.160k.log) | -- |
 
 ## Citation
 If you find this work or code useful for your research, please cite:
