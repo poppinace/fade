@@ -30,7 +30,7 @@ Here are results of image matting and semantic segmentation:
 
 | Image Matting | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-| Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | -- | -- |
+| Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | (https://github.com/poppinace/fade/blob/main/segformer/segformer.b1_bilinear.512x512.ade.160k.log) | -- |
 | CARAFE | +0.26M | +6.00 | 41.01 | 0.0118 | 21.39 | 39.01 | -- | -- |
 | IndexNet | +12.26M | +31.70 | 34.28 | 0.0081 | 15.94 | 31.91 | -- | -- |
 | A2U | +38K | +0.66 | 32.15 | 0.0082 | 16.39 | 29.25 | -- | -- |
