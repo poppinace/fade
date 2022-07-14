@@ -30,7 +30,6 @@ If you find this work or code useful for your research, please cite:
 @inproceedings{lu2022fade,
   title={FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling},
   author={Lu, Hao and Liu, Wenze and Fu, Hongtao and Cao, Zhiguo},
-  AUTHOR+an = {1=highlight},
-  booktitle=ECCV,
+  booktitle={Proc. European Conference on Computer Vision (ECCV)},
   year={2022}
 }
