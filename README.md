@@ -26,7 +26,7 @@ Our codes are tested on Python 3.8.8 and PyTorch 1.9.0. mmcv(https://github.com/
 ## Start
 Our experiments are based on A2U matting(https://github.com/dongdong93/a2u_matting) and SegFormer(https://github.com/NVlabs/SegFormer). Please follow their installation instruction to prepare the models. In the folders a2u_matting and segformer we provide the modified model and the config files for FADE and FADE-Lite.
 
-Here are results of image matting and semantic segmentation:
+Here are results of image matting (the first below) and semantic segmentation (the second below):
 
 | Upsampler | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
