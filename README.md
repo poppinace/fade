@@ -35,6 +35,7 @@ Here are results of image matting and semantic segmentation:
 | IndexNet | +12.26M | +31.70 | 34.28 | 0.0081 | 15.94 | 31.91 | -- | -- |
 | A2U | +38K | +0.66 | 32.15 | 0.0082 | 16.39 | 29.25 | -- | -- |
 | FADE | +0.12M | +8.85 | 31.10 | 0.0073 | 14.52 | 28.11 | -- | -- |
+| FADE-Lite | +27K | +1.46 | 31.36 | 0.0075 | 14.83 | 28.21 | -- | -- |
 
 | Semantic Segmentation | #Param. | GFLOPs | mIoU | bIoU | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -43,6 +44,7 @@ Here are results of image matting and semantic segmentation:
 | IndexNet | +12.60M | +30.65 | 41.50 | 28.27 | -- | -- |
 | A2U | +0.12M | +0.41 | 41.45 | 27.31 | -- | -- |
 | FADE | +0.29M | +2.65 | 44.41 | 32.65 | -- | -- |
+| FADE-Lite | +80K | +0.89 | 43.49 | 31.55 | -- | -- |
 
 ## Citation
 If you find this work or code useful for your research, please cite:
