@@ -29,7 +29,7 @@ Our experiments are based on A2U matting(https://github.com/dongdong93/a2u_matti
 Here are results of image matting and semantic segmentation:
 
 | Upsampler | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
-| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | -- | -- |
 | CARAFE | +0.26M | +6.00 | 41.01 | 0.0118 | 21.39 | 39.01 | -- | -- |
 | IndexNet | +12.26M | +31.70 | 34.28 | 0.0081 | 15.94 | 31.91 | -- | -- |
