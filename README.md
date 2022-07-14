@@ -28,7 +28,7 @@ Our experiments are based on A2U matting(https://github.com/dongdong93/a2u_matti
 
 Here are results of image matting and semantic segmentation:
 
-| Matting | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
+| Image Matting | #Param. | GFLOPs | SAD | MSE | Grad | Conn | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | Bilinear | 8.05M | 8.61 | 37.31 | 0.0103 | 21.38 | 35.39 | -- | -- |
 | CARAFE | +0.26M | +6.00 | 41.01 | 0.0118 | 21.39 | 39.01 | -- | -- |
@@ -36,7 +36,7 @@ Here are results of image matting and semantic segmentation:
 | A2U | +38K | +0.66 | 32.15 | 0.0082 | 16.39 | 29.25 | -- | -- |
 | FADE | +0.12M | +8.85 | 31.10 | 0.0073 | 14.52 | 28.11 | -- | -- |
 
-| Segmentation | #Param. | GFLOPs | mIoU | bIoU | Log | Model |
+| Semantic Segmentation | #Param. | GFLOPs | mIoU | bIoU | Log | Model |
 | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
 | Bilinear | 13.7M | 15.91 | 41.68 | 27.80 | -- | -- |
 | CARAFE | +0.44M | +1.45 | 42.82 | 29.84 | -- | -- |
