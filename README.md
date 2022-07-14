@@ -7,11 +7,11 @@ This repository includes the official implementation of FADE, an upsampling oper
 
 **[FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling](https://arxiv.org/abs/)**
 
-Proc. ECCV European Conference on Computer Vision
+Proc. European Conference on Computer Vision (ECCV)
 
-[Hao Lu](https://sites.google.com/site/poppinace/)<sup>1</sup>, Wenze Liu<sup>1</sup>, Hongtao Fu<sup>1</sup>, Zhiguo Cao<sup>1</sup>
+[Hao Lu](https://sites.google.com/site/poppinace/), Wenze Liu, Hongtao Fu, Zhiguo Cao
 
-<sup>1</sup>Huazhong University of Science and Technology, China
+Huazhong University of Science and Technology, China
 
 ## Highlights
 - **Simple and effective:** As an upsampling operator, FADE boosts great improvements despite its tiny body;
@@ -27,5 +27,10 @@ Our experiments are based on A2U matting(https://github.com/dongdong93/a2u_matti
 ## Citation
 If you find this work or code useful for your research, please cite:
 ```
-@inproceedings{
+@inproceedings{lu2022fade,
+  title={FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling},
+  author={Lu, Hao and Liu, Wenze and Fu, Hongtao and Cao, Zhiguo},
+  AUTHOR+an = {1=highlight},
+  booktitle=ECCV,
+  year={2022}
 }
