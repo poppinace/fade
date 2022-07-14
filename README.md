@@ -1,8 +1,8 @@
 # FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling
 
 <center class="half"> 
-  <img src="carafe.gif" width="200" title="CARAFE"/>
-  <img src="fade.gif" width="200" title="FADE"/>
+  <img src="carafe.gif" width="350" title="CARAFE"/>
+  <img src="fade.gif" width="350" title="FADE"/>
 </center>
 
 This repository includes the official implementation of FADE, an upsampling operator, presented in our paper:
