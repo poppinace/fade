@@ -58,4 +58,4 @@ If you find this work or code useful for your research, please cite:
 ```
 
 ## Permission
-This code is for academic purposes only.
+This code is for academic purposes only. Contact: Hao Lu (hlu@hust.edu.cn)
