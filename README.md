@@ -55,6 +55,7 @@ If you find this work or code useful for your research, please cite:
   booktitle={Proc. European Conference on Computer Vision (ECCV)},
   year={2022}
 }
+```
 
 ## Permission
-This code is only for academic purposes.
+This code is for academic purposes only.
