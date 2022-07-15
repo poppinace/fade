@@ -20,10 +20,10 @@ Huazhong University of Science and Technology, China
 <p align="center"><img src="visualization.jpg" width="800" title="visualization"/></p>
 
 ## Installation
-Our codes are tested on Python 3.8.8 and PyTorch 1.9.0. mmcv(https://github.com/open-mmlab/mmcv) is additionally required for the feature assembly function by CARAFE(https://github.com/myownskyW7/CARAFE).
+Our codes are tested on Python 3.8.8 and PyTorch 1.9.0. [mmcv](https://github.com/open-mmlab/mmcv) is additionally required for the feature assembly function by [CARAFE](https://github.com/myownskyW7/CARAFE).
 
 ## Start
-Our experiments are based on A2U matting(https://github.com/dongdong93/a2u_matting) and SegFormer(https://github.com/NVlabs/SegFormer). Please follow their installation instruction to prepare the models. In the folders a2u_matting and segformer we provide the modified model and the config files for FADE and FADE-Lite.
+Our experiments are based on [A2U matting](https://github.com/dongdong93/a2u_matting) and [SegFormer](https://github.com/NVlabs/SegFormer). Please follow their installation instructions to prepare the models. In the folders `a2u_matting` and `segformer` we provide the modified model and the config files for FADE and FADE-Lite.
 
 Here are results of image matting and semantic segmentation:
 
@@ -55,3 +55,6 @@ If you find this work or code useful for your research, please cite:
   booktitle={Proc. European Conference on Computer Vision (ECCV)},
   year={2022}
 }
+
+## Permission
+This code is only for academic purposes.
