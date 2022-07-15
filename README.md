@@ -1,6 +1,6 @@
 # FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling
 
-<p align="center"><img src="carafe.gif" width="480" title="CARAFE"/><img src="fade.gif" width="480" title="FADE"/></p>
+<p align="center"><img src="carafe.gif" width="400" title="CARAFE"/><img src="fade.gif" width="400" title="FADE"/></p>
 <p align="center">CARAFE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FADE</p>
 
 This repository includes the official implementation of FADE, an upsampling operator, presented in our paper:
@@ -17,7 +17,7 @@ Huazhong University of Science and Technology, China
 - **Simple and effective:** As an upsampling operator, FADE boosts great improvements despite its tiny body;
 - **Task-agnostic:** Compared with other upsamplers, FADE performs well on both region-sensitive and detail sensitive dense prediction tasks;
 - **Plug and play:** FADE can be easily incorporated into most dense prediction models, particularly encoder-decoder architectures.
-<p align="center"><img src="visualization.jpg" width="960" title="visualization"/></p>
+<p align="center"><img src="visualization.jpg" width="800" title="visualization"/></p>
 
 ## Installation
 Our codes are tested on Python 3.8.8 and PyTorch 1.9.0. mmcv(https://github.com/open-mmlab/mmcv) is additionally required for the feature assembly function by CARAFE(https://github.com/myownskyW7/CARAFE).
