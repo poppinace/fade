@@ -55,6 +55,13 @@ If you find this work or code useful for your research, please cite:
   booktitle={Proc. European Conference on Computer Vision (ECCV)},
   year={2022}
 }
+
+@article{lu2024fade,
+  title={FADE: A Task-Agnostic Upsampling Operator for Encoder–Decoder Architectures},
+  author={Lu, Hao and Liu, Wenze and Fu, Hongtao and Cao, Zhiguo},
+  journal={International Journal of Computer Vision},
+  year={2024}
+}
 ```
 
 ## Permission
