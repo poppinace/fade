@@ -7,7 +7,11 @@ This repository includes the official implementation of FADE, an upsampling oper
 
 **[FADE: Fusing the Assets of Decoder and Encoder for Task-Agnostic Upsampling](http://arxiv.org/abs/2207.10392)**
 
-Proc. European Conference on Computer Vision (ECCV)
+and the extended version
+
+**[FADE: A Task-Agnostic Upsampling Operator for Encoder–Decoder Architectures](https://link.springer.com/article/10.1007/s11263-024-02191-8)**
+
+Proc. European Conference on Computer Vision (ECCV) / International Journal of Computer Vision
 
 [Hao Lu](https://sites.google.com/site/poppinace/), Wenze Liu, Hongtao Fu, Zhiguo Cao
 
