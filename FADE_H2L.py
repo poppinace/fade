@@ -17,7 +17,7 @@ def space_reassemble(x, scale=2):
     C = C // scale ** 2
     return x.permute(0, 2, 3, 1).contiguous().view(
         B, H, W, scale, scale, C).permute(0, 1, 3, 2, 4, 5).contiguous().view(
-        B, scale * W, scale * W, C).permute(0, 3, 1, 2).contiguous()
+        B, scale * H, scale * W, C).permute(0, 3, 1, 2).contiguous()
 
 
 class GateGenerator(nn.Module):
